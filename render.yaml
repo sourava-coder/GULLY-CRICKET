@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: gully-cricket-backend
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 3001
