@@ -1,0 +1,19 @@
+{
+  "name": "gully-cricket-backend",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Backend server for Gully Cricket online tracker",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "ws": "^8.14.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

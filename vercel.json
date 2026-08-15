@@ -1,7 +1,4 @@
 {
   "buildCommand": "npm run build",
-  "outputDirectory": "dist",
-  "env": {
-    "VITE_BACKEND_URL": "@gully_cricket_backend_url"
-  }
+  "outputDirectory": "dist"
 }

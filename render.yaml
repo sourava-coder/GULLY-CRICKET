@@ -3,10 +3,13 @@ services:
     name: gully-cricket-backend
     runtime: node
     plan: free
-    buildCommand: npm install
-    startCommand: node server.js
+    buildCommand: "npm install --legacy-peer-deps"
+    startCommand: "node server.js"
     envVars:
       - key: NODE_ENV
         value: production
       - key: PORT
         value: 3001
+    routes:
+      - path: /
+        matchType: Prefix
