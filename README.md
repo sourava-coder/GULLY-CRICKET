@@ -1,4 +1,4 @@
-# गली क्रिकेट 🏋️ — Gully Cricket Music Player
+# गली क्रिकेट 🏏 — Gully Cricket Music Player
 
 A retro, synthwave-flavoured music player themed like an old-school desi street gym.
 Play a YouTube / YouTube Music playlist while you press a dumbbell that grows heavier
