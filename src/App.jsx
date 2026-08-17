@@ -14,7 +14,7 @@ const QUOTES = [
   'YEP! YEP! YEP!',
 ]
 
-const DEFAULT_PLAYLIST = 'PLHYMoQ2kSUSU'
+const DEFAULT_PLAYLIST = 'PLaOJmygIbV40'
 const START_KG = 5
 const MAX_KG = 35
 const STEP_KG = 5
